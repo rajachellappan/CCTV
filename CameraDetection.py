@@ -1,2 +1,3 @@
-import main as mn
-print(mn.frame1) #testing
+import tkinter as gui
+top =  gui.Tk()
+top.mainloop()
