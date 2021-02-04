@@ -18,5 +18,5 @@ while cam.isOpened():
         cv2.rectangle(frame1, (x,y), (x+w, y+h), (0, 255, 0), 2)
         # print('Burglar')
     if cv2.waitKey(10) == ord(chr(27)):
-        break
+        break #Quit
     cv2.imshow('My Cam', frame1)
